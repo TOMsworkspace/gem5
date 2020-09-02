@@ -1,17 +1,5 @@
 import m5
 from m5.objects import *
- 
-# These three directory paths are not currently used.
-gem5_dir = '/root/gem5'
-spec_dir = '/root/cpu2017'
-out_dir = '/root/specResult'
- 
-x86_suffix = '_base.mytest-m64'
-
-#temp
-binary_dir = gem5_dir+'/benches/'
-data_dir = gem5_dir+'/benches/'
-
 
 #500.perlbench_r 
 perlbench_r = Process(pid = 500) 
